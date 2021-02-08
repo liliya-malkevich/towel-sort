@@ -13,13 +13,13 @@ let k = 0;
 for(let i = 0; i<n;i++){
   if(i%2 == 0){
    
-    for( let j =0;j<m;j++){
+    for( let j =0;j<matrix[i].length;j++){
       arr[k] = matrix[i][j];
       k++;
   }
 }
   else {
-    for( let j =m-1;j>=0;j--){
+    for( let j =matrix[i].length-1;j>=0;j--){
       arr[k] = matrix[i][j];
       k++;
   }
